@@ -3,12 +3,12 @@
  Author's custom styles
  ========================================================================== */
 @font-face {
-	font-family: "Champagne & Limousines";
-	src: url("../fonts/Champagne & Limousines.ttf");
+    font-family: "Champagne & Limousines";
+    src: url("../fonts/Champagne & Limousines.ttf");
 }
 @font-face {
-	font-family: "Raleway-Thin";
-	src: url("../fonts/Raleway-Thin.ttf");
+    font-family: "Raleway-Thin";
+    src: url("../fonts/Raleway-Thin.ttf");
 }
 body 					{font-family:"Champagne & Limousines","Raleway-Thin",Helvetica,sans-serif;-webkit-font-smoothing: antialiased;}
 .bg-colored				{background-color: #f4645f;}
@@ -72,33 +72,33 @@ blockquote				{border-color: #f4645f;}
 .unhappyMessage			{color:red}
 .red					{background:#F4DFA1;color:black;}
 .green  				{background:#C3F7B7;color:black;}
-
+.full-width {width:100% !important}
 /*===================================================================================================================================================
  MEDIA QUERIES FOR ALL THE PAGES DEFINED BELOW AS PER BOOTSTRAP SPECIFICATIONS
  ===================================================================================================================================================*/
 @media (max-width: 500px) {
-	.home-menu li 		{font-size: 28px;margin:1px;padding:1px;}
-	.home-page-intro    {text-align:left;font-size:20px;margin-bottom:20px;}
-	.contact-page-intro {text-align:left;font-size:20px;margin-bottom:20px;}
-	.about-heading		{text-align:left;padding:10px 0px 10px 30px;margin:10px 0px 10px 0px;}
-	.tags				{text-align:left;margin-bottom:0px;margin-top:5px;}
-	#contact-info		{margin-top:30px;margin-bottom:30px;}
-	.img-work 			{height:auto;}
+    .home-menu li 		{font-size: 28px;margin:1px;padding:1px;}
+    .home-page-intro    {text-align:left;font-size:20px;margin-bottom:20px;}
+    .contact-page-intro {text-align:left;font-size:20px;margin-bottom:20px;}
+    .about-heading		{text-align:left;padding:10px 0px 10px 30px;margin:10px 0px 10px 0px;}
+    .tags				{text-align:left;margin-bottom:0px;margin-top:5px;}
+    #contact-info		{margin-top:30px;margin-bottom:30px;}
+    .img-work 			{height:auto;}
 }
 @media (max-width: 767px) {
-	.home-menu li 		{font-size: 28px;margin:1px;padding:1px;}
-	.home-page-intro    {text-align:left;font-size:20px;margin-bottom:20px;}
-	.contact-page-intro {text-align:left;font-size:20px;margin-bottom:20px;}
-	.about-heading		{text-align:left;padding:10px 0px 10px 30px;margin:10px 0px 10px 0px;}
-	.tags				{text-align:left;margin-bottom:0px;margin-top:10px;}
-	#contact-info		{margin-top:30px;margin-bottom:30px;}
-	.img-work 			{height:auto;}
+    .home-menu li 		{font-size: 28px;margin:1px;padding:1px;}
+    .home-page-intro    {text-align:left;font-size:20px;margin-bottom:20px;}
+    .contact-page-intro {text-align:left;font-size:20px;margin-bottom:20px;}
+    .about-heading		{text-align:left;padding:10px 0px 10px 30px;margin:10px 0px 10px 0px;}
+    .tags				{text-align:left;margin-bottom:0px;margin-top:10px;}
+    #contact-info		{margin-top:30px;margin-bottom:30px;}
+    .img-work 			{height:auto;}
 }
 @media (max-width: 992px){
-	#profile-image 		{max-height:200px;}
-	.intro-line			{font-weight:bold;margin:0px;font-size:30px}
-	#contact-info		{margin-top:30px;margin-bottom:30px;}
+    #profile-image 		{max-height:200px;}
+    .intro-line			{font-weight:bold;margin:0px;font-size:30px}
+    #contact-info		{margin-top:30px;margin-bottom:30px;}
 }
 @media (max-width: 1200px) {
-	#contact-info		{margin-bottom:30px;}
+    #contact-info		{margin-bottom:30px;}
 }
