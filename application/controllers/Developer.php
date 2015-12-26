@@ -27,7 +27,7 @@ class Developer extends CI_Controller
 
     public function work_details($work)
     {
-        $this->load->view("works/" . $work, array('title' => $work));
+        $this->load->view("works/" . $work, array('title' => ucwords($work)));
     }
 
     public function send_message()

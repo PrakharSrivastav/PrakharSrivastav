@@ -7,6 +7,35 @@
         <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
+                    <h3 class="panel-title bold text-center">SafeGlobalPay : Payment Gateway website</h3>
+                </div>
+                <img src="<?php echo base_url(); ?>assets/img/safeglobal_home.png"  class="full-width img-responsive img-work"/>
+                <div class="text-center bg-colored padding-5 text-black ">
+                    Twitter Bootstrap , HTML5, CSS and JQuery based single page website.
+                </div>
+                <ul style="padding-left:15px;font-size:12px" class="padding-5">
+                    <li>
+                        Responsive Design.
+                    </li>
+                    <li>
+                        Smooth scrolling, CSS based hover effects.
+                    </li>
+                    <li>
+                        Contact form with feedback. 
+                    </li>
+                    <li>
+                        Twitter-Bootstrap (HTML/CSS/Javascript/JQuery).
+                    </li>
+                    <li>
+                        PHP (CodeIgniter Framework).
+                    </li>
+                </ul>
+                <a href="<?php echo base_url(); ?>developer/work_details/safeglobalpay" class="btn btn-block input-sm send_message">Click to know more</a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
+            <div class="panel">
+                <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Archfold Interactive : Artist Promotion website</h3>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/img/archfold_home.png"  class="full-width img-responsive img-work"/>
@@ -133,9 +162,10 @@
                     <li>
                         Table sorting and pagination using JQuery.
                     </li>
-                    <li>
+                    <li style="margin-bottom: 1px">
                         Utilizes PHPExcel library for reading Excel.
                     </li>
+                    
                 </ul>
                 <a href="<?php echo base_url(); ?>developer/work_details/php-portal" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
