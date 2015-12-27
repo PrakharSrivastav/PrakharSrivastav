@@ -56,6 +56,7 @@ blockquote				{border-color: #f4645f;}
 .border-black   		{border:solid black 1px}
 .border-colored   		{border:solid #DC5A56 1px}
 .bold					{font-weight:700}
+/*.panel {min-height: 450px !important}*/
 .panel,  
 .panel-heading			{border-radius:0px;border: solid #DC5A56 1px; color:black;font-weight:700}
 .full-width				{width:100%}

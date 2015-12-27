@@ -7,18 +7,47 @@
         <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
+                    <h3 class="panel-title bold text-center">Ayjo Consulting : Website</h3>
+                </div>
+                <img src="<?php echo base_url(); ?>assets/img/ayjo_s.png"  class="full-width img-responsive img-work"/>
+                <div class="text-center bg-colored padding-5 text-black ">
+                    Website for software development agency.
+                </div>
+                <ul style="padding-left:15px;font-size:12px" class="padding-5">
+                    <li>
+                        Carousal / Sliding banner with text and buttons. 
+                    </li>
+                    <li>
+                        Parallax scrolling and smooth transitions.
+                    </li>
+                    <li>
+                        Detailed Service , Pricing and Contact sections. 
+                    </li>
+                    <li>
+                        Twitter-Bootstrap (HTML/CSS/JQuery) and other JS libraries for effects.
+                    </li>
+                    <li>
+                        Auto hiding top header on scroll.
+                    </li>
+                </ul>
+                <a href="<?php echo base_url(); ?>developer/work_details/ayjoconsulting" class="btn btn-block input-sm send_message">Click to know more</a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
+            <div class="panel">
+                <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Moxie CRM : PHP-MySQL based CRM system</h3>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/img/crm_home.png"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black ">
-                    A Simple CRM system with Customer, Expense and Invoice modules.
+                    A blazing fast CRM system with Customer, Expense and Invoice modules.
                 </div>
                 <ul style="padding-left:15px;font-size:12px" class="padding-5">
                     <li>
                         Automatic application installer. 
                     </li>
                     <li>
-                        Blazing fast performance . Built using PHP Fat  Free Framework
+                        Built using PHP Fat  Free Framework.
                     </li>
                     <li>
                         List / Add / Edit / Search / Delete options for each module. 
@@ -219,7 +248,7 @@
                     <li>
                         Built on Twitter Bootstrap framework.
                     </li>
-                    <li>
+                    <li style="margin-bottom: 1px">
                         Applicable for showcasing portfolios and projects.
                     </li>
                 </ul>
