@@ -7,6 +7,35 @@
         <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
+                    <h3 class="panel-title bold text-center">Moxie CRM : PHP-MySQL based CRM system</h3>
+                </div>
+                <img src="<?php echo base_url(); ?>assets/img/crm_home.png"  class="full-width img-responsive img-work"/>
+                <div class="text-center bg-colored padding-5 text-black ">
+                    A Simple CRM system with Customer, Expense and Invoice modules.
+                </div>
+                <ul style="padding-left:15px;font-size:12px" class="padding-5">
+                    <li>
+                        Automatic application installer. 
+                    </li>
+                    <li>
+                        Blazing fast performance . Built using PHP Fat  Free Framework
+                    </li>
+                    <li>
+                        List / Add / Edit / Search / Delete options for each module. 
+                    </li>
+                    <li>
+                        Twitter-Bootstrap (HTML/CSS/JQuery).
+                    </li>
+                    <li>
+                        PHP - Mysql  (Fat Free Framework).
+                    </li>
+                </ul>
+                <a href="<?php echo base_url(); ?>developer/work_details/moxiecrm" class="btn btn-block input-sm send_message">Click to know more</a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
+            <div class="panel">
+                <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">SafeGlobalPay : Payment Gateway website</h3>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/img/safeglobal_home.png"  class="full-width img-responsive img-work"/>
