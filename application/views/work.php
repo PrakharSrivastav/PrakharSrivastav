@@ -111,6 +111,29 @@
             <div class="panel">
 
                 <div class="panel-heading bg-colored text-black">
+                    <h3 class="panel-title bold text-center">Website Redesign : www.askjonskeet.com</h3>
+                </div>
+                <img src="<?php echo base_url(); ?>assets/img/jon_skeet_home.png"  class="full-width img-responsive img-work"/>
+                <div class="text-center bg-colored padding-5 text-black ">
+                    Website redesign to a Bootstrap based layout.
+                </div>
+                <ul style="padding-left:15px;font-size:12px" class="padding-5">
+                    <li>
+                        Responsive Design / Mobile first.
+                    </li>
+                    <li>
+                        Twitter-Bootstrap (HTML/CSS/Javascript/JQuery).
+                    </li>
+                    <li>
+                        Simple Four page layout
+                    </li>
+                </ul>
+                <a href="<?php echo base_url(); ?>developer/work_details/askjonskeeet" class="btn btn-block input-sm send_message">Click to know more</a>
+            </div>
+
+            <div class="panel">
+
+                <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">SafeGlobalPay : Payment Gateway website</h3>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/img/safeglobal_home.png"  class="full-width img-responsive img-work"/>
