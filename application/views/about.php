@@ -1,66 +1,68 @@
 <?php $this->load->view("templates/header"); ?>
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-	<article>
-		<div>
-			<div class="row border-top-colored border-bottom-colored padding-5">
-				<div class="col-lg-3 col-md-5 col-sm-5 col-xs-12 hidden-xs">
-					<img class="img-responsive img-circle pull-left" id="profile-image" src='<?php echo base_url()."assets/img/prakhar.jpg"; ?>' />
-				</div>
-				<dialog class="col-lg-offset-1 col-lg-7 about-heading pull-right col-md-7 col-sm-7 col-xs-12">
-					<span class="intro-line h1">Hello, my name is Prakhar Srivastav.</span>
-					<label class="tags text-colored">HTML5 / Javascript / PHP / Mysql / Java / Bootstrap / Spring / JQuery / Ajax / JEE / EJB / CSS</label
-				</dialog>
-			</div>
-			<div class="row">
-				<p class="h3">I am a full time freelance developer based out of India and have been serving clients scaling from small student enterpreneurs to the large multinationals and everything in between.
-					<br /><br />
-					I have previously work with Infosys Limited and have served multiple clients across the globe for around 7 years. 
-					Freelancing is my recent venture and I believe I can deliver my clients much better working in this mode.
-					<br /><br />
-					I love to create awesome, clean and easy to use intefaces using <span class="text-colored">HTML5</span>, <span class="text-colored">CSS</span>  and <span class="text-colored">Javascript.</span>  
-					I am highly inspired by various new grid systems introduced in the open source community and the way they make prototyping and web layouts so simple.
-					<br /><br />
-					I am also a big fan of <span class="text-colored">JQuery</span> framework and the way it has made javascript development so much easier. 
-					<small>(Really?? I still learn a new thing with JQuery  every day and it never gets enough.)</small> 
-					<br /><br />
-					For server side scripting, <span class="text-colored">PHP</span> is the best tool I have found so far <small>(considering how easily the cloud infrasctucture supports it)</small>. 
-					I like to use it in object oriented fashion but also utilize the power of frameworks like Laravel and CodeIgniter for larger projects to reduce the development time.
-					<br /><br />
-					Now that you know a little about me, feel free to get in touch with me through my Contact form <a href="<?php echo base_url()."developer/contact"; ?>">here</a>. 
-					<br /><br />
-					Thanks for stopping by,
-					<br />
-					Prakhar
-				</p>
-				 
-			</div>
-			<div class="row">
-				<hr />
-				<div class="text-center h1">What other people say about me</div>
-				<hr />
-				<blockquote>
-					"Awesome work! Thank you so much not only delivering job on time but also putting all of our requests into practice.the web interface is so clean and I love how our task got simplified!"
-					<span class="pull-right text-colored">Megumi Yamauchi</span>
-				</blockquote>
-				<hr />
-				<blockquote>
-					"Prakhar is an excellent freelancer. He did the job that was supposed to, and was totally open to new challenges. I will definitely hire him again."
-					<span class="pull-right text-colored">Tania Botelho</span>
-				</blockquote>
-				<hr />
-				<blockquote>
-					"Prakhar is a great freelancer. The job done is perfect!"
-					<span class="pull-right text-colored">Bertrand Lambert</span>
-				</blockquote>
-				<hr />
-				<blockquote>
-					"I'm extremely satisfied with what you've created, the patience you've shown and also the very short time frame in which you've done it and would recommend you to anybody!"
-					<span class="pull-right text-colored">Kevin</span>
-				</blockquote>
-				<hr />
-			</div>
-		</div>
-	</article>
+    <article>
+        <div>
+            <div class="row border-top-colored border-bottom-colored padding-5">
+                <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                    <img class="img-responsive img-circle pull-left" id="profile-image" src='<?php echo base_url() . "assets/img/prakhar.jpg"; ?>' />
+                </div>
+                <dialog class="col-lg-offset-1 col-lg-7 about-heading pull-right col-md-7 col-sm-7 col-xs-12">
+                    <span class="intro-line h1">Hello, my name is Prakhar Srivastav.</span>
+                    <label class="tags text-colored">HTML5 / JavaScript / PHP / Mysql / Java / Bootstrap / Spring / JQuery / Ajax / JEE / EJB / CSS</label
+                </dialog>
+            </div>
+            <div class="row">
+                <p class="h3">I am a full time freelance developer based out of Oslo, Norway and have been serving clients scaling from small student entrepreneurs to the large multinational organizations and everything in between.
+                    <br /><br />
+                    I have previously work with Infosys Limited and have served multiple clients across the globe for over 8 years. 
+                    Freelance development is my recent venture and I believe I can deliver my clients much better working in this mode.
+                    <br /><br />
+                    I love to create awesome, clean and easy to use interfaces using <span class="text-colored">HTML5</span>, <span class="text-colored">CSS</span>  and <span class="text-colored">JavaScript.</span>  
+                    I am highly inspired by various new grid systems introduced in the open source community and the way they make prototyping and web layouts so simple.
+                    <br /><br />
+                    I am also a big fan of <span class="text-colored">JQuery</span> framework and the way it has made JavaScript development so much easier. 
+                    <!--                    
+                    <small>(Really?? I still learn a new thing with JQuery  every day and it never gets enough.)</small> 
+                    <br /><br />
+                    -->
+                    For server side scripting and development, <span class="text-colored">PHP</span> and <span class="text-colored">Python</span> are the best tools I have found so far . 
+                    I like to use these languages in object oriented fashion but also utilize the power of frameworks like Laravel and CodeIgniter for larger projects to reduce the development time.
+                    <br /><br />
+                    Now that you know a little about me, feel free to get in touch with me through my Contact form <a href="<?php echo base_url("developer/contact") ; ?>">here</a>. 
+                    <br /><br />
+                    Thanks for stopping by,
+                    <br />
+                    Prakhar
+                </p>
+
+            </div>
+<!--            <div class="row">
+                <hr />
+                <div class="text-center h1">What other people say about me</div>
+                <hr />
+                <blockquote>
+                    "Awesome work! Thank you so much not only delivering job on time but also putting all of our requests into practice.the web interface is so clean and I love how our task got simplified!"
+                    <span class="pull-right text-colored">Megumi Yamauchi</span>
+                </blockquote>
+                <hr />
+                <blockquote>
+                    "Prakhar is an excellent freelancer. He did the job that was supposed to, and was totally open to new challenges. I will definitely hire him again."
+                    <span class="pull-right text-colored">Tania Botelho</span>
+                </blockquote>
+                <hr />
+                <blockquote>
+                    "Prakhar is a great freelancer. The job done is perfect!"
+                    <span class="pull-right text-colored">Bertrand Lambert</span>
+                </blockquote>
+                <hr />
+                <blockquote>
+                    "I'm extremely satisfied with what you've created, the patience you've shown and also the very short time frame in which you've done it and would recommend you to anybody!"
+                    <span class="pull-right text-colored">Kevin</span>
+                </blockquote>
+                <hr />
+            </div>-->
+        </div>
+    </article>
 </section>
 </div>
 
