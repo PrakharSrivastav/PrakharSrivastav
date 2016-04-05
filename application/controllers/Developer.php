@@ -2,36 +2,29 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Developer extends CI_Controller
-{
+class Developer extends CI_Controller {
 
-    public function index()
-    {
+    public function index() {
         $this->load->view('developer_home', array('title' => 'Prakhar Srivastav'));
     }
 
-    public function about()
-    {
+    public function about() {
         $this->load->view("about", array('title' => 'About'));
     }
 
-    public function contact()
-    {
+    public function contact() {
         $this->load->view("contact", array('title' => 'Contact'));
     }
 
-    public function work()
-    {
+    public function work() {
         $this->load->view("work", array('title' => 'Works'));
     }
 
-    public function work_details($work)
-    {
+    public function work_details($work) {
         $this->load->view("works/" . $work, array('title' => ucwords($work)));
     }
 
-    public function send_message()
-    {
+    public function send_message() {
         $post = $this->input->post();
 
         $this->load->helper(array('form', 'url'));
@@ -42,24 +35,22 @@ class Developer extends CI_Controller
         $this->form_validation->set_rules('message_content', "Message", "trim|required");
         $this->form_validation->set_rules('question', "Answer", "trim|required|numeric|callback_answer");
 
-        if ($this->form_validation->run() == FALSE)
-        {
+        if ($this->form_validation->run() == FALSE) {
             $this->load->view("contact", array('title' => 'Contact'));
         }
-        else
-        {
+        else {
 
             $this->load->library('email');
             $this->email->clear();
-            $config['protocol'] = 'mail';
-            $config['mailtype'] = 'text';
-            $config['smtp_host'] = 'p3plcpnl0203.prod.phx3.secureserver.net';
+            $config['protocol']    = 'mail';
+            $config['mailtype']    = 'text';
+            $config['smtp_host']   = 'p3plcpnl0203.prod.phx3.secureserver.net';
             $config['smtp_crypto'] = 'ssl';
-            $config['smtp_user'] = 'hello@prakharsrivastav.com';
-            $config['smtp_pass'] = 'Hafslund12';
-            $config['smtp_port'] = 465;
-            $config['charset'] = 'utf-8';
-            $config['wordwrap'] = false;
+            $config['smtp_user']   = 'hello@prakharsrivastav.com';
+            $config['smtp_pass']   = 'Hafslund12';
+            $config['smtp_port']   = 465;
+            $config['charset']     = 'utf-8';
+            $config['wordwrap']    = false;
 
             $this->email->initialize($config);
             $this->email->subject($this->input->post("subject"));
@@ -69,36 +60,37 @@ class Developer extends CI_Controller
             $this->email->reply_to($this->input->post("email"), $this->input->post("name"));
 
             if ($this->email->send())
-                $this->load->view("contact", array("success" => true, 'title' => 'Contact'));
-            else
-            {
-                $this->load->view("contact", array('title' => 'Contact'));
+                $this->load->view(
+                    "contact", array("success" => true, 'title' => 'Contact')
+                );
+            else {
+                $this->load->view(
+                    "contact", array('title' => 'Contact')
+                );
             }
         }
     }
 
-    public function answer($answer)
-    {
-        if ($answer != '4')
-        {
-            $this->form_validation->set_message('answer', 'You have provided a wrong answer');
+    public function answer($answer) {
+        if ($answer != '4') {
+            $this->form_validation->set_message(
+                'answer', 'You have provided a wrong answer'
+            );
             return FALSE;
         }
-        else
-        {
+        else {
             return TRUE;
         }
     }
 
-    public function check_subject($subject)
-    {
-        if (trim($subject) === "What's your purpose" OR trim($subject) === "")
-        {
-            $this->form_validation->set_message('check_subject', 'Please select the purpose of contact from the dropdown menu');
+    public function check_subject($subject) {
+        if (trim($subject) === "What's your purpose" OR trim($subject) === "") {
+            $this->form_validation->set_message(
+                'check_subject', 'Please select the purpose of contact from the dropdown menu'
+            );
             return FALSE;
         }
-        else
-        {
+        else {
             return TRUE;
         }
     }

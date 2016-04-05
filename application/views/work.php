@@ -7,9 +7,33 @@
         <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
+                    <h3 class="panel-title bold text-center">Magic Meal : Food Order / Delivery Website</h3>
+                </div>
+                <img src="<?php echo base_url('assets/img/magicmeal_home.png'); ?>"  class="full-width img-responsive img-work"/>
+                <div class="text-center bg-colored padding-5 text-black">
+                    Food Ordering / Delivery / Takeaway website.
+                </div>
+                <ul style="padding-left:15px;font-size:12px" class="padding-5">
+                    <li>
+                         Twitter Bootstrap with HTML5 / CSS3 /JQuery.
+                    </li>
+                    <li>
+                        Google Maps Integration.
+                    </li>
+                    <li>
+                        JQuery driven price calculator.
+                    </li>
+                    <li>
+                        JavaScript / CSS based animations.
+                    </li>
+                </ul>
+                <a href="<?php echo base_url('developer/work_details/magicmeal'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
+            </div>
+            <div class="panel">
+                <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Admin Panel : Invoicing system</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/safe_admin_s.png"  class="full-width img-responsive img-work"/>
+                <img src="<?php echo base_url('assets/img/safe_admin_s.png'); ?>"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black">
                     System to create role based users and send invoices.
                 </div>
@@ -30,13 +54,13 @@
                         Automated / Manual database backup.
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/adminpanel_safe" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/adminpanel_safe'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Moxie CRM : PHP-MySQL based CRM system</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/crm_home.png"  class="full-width img-responsive img-work"/>
+                <img src="<?php echo base_url('assets/img/crm_home.png'); ?>"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     A blazing fast CRM system with Customer, Expense and Invoice modules.
                 </div>
@@ -57,14 +81,13 @@
                         PHP - Mysql  (Fat Free Framework).
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/moxiecrm" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/moxiecrm'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
-
             <div class="panel">
                 <div class="panel-heading  bg-colored bold text-black">
                     <h3 class="panel-title bold text-center">ExportEditor : A web based tool to upload/parse CSV, JS validate and email</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/homepage.png"  class="img-responsive img-work full-width"/>
+                <img src="<?php echo base_url('assets/img/homepage.png'); ?>"  class="img-responsive img-work full-width"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     Web Development PHP, twitter bootstrap, JavaScript, MySQL Administration
                 </div>
@@ -82,13 +105,13 @@
                         SMTP email authorization
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/exporteditor" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/exporteditor'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title  bold text-center">Sample Project : HTML5, JQuery website with Laravel PHP framework. </h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/laravel-homepage.png" class="img-responsive img-work full-width"/>
+                <img src="<?php echo base_url('assets/img/laravel-homepage.png'); ?>" class="img-responsive img-work full-width"/>
                 <div class="text-center bg-colored padding-5 text-black border">
                     HTML5 / CSS / JQuery website powered by Laravel PHP framework on server side.
                 </div>
@@ -103,17 +126,17 @@
                         Laravel framework on the server to provide backend functionalities.
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/laravel" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/laravel'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
         </div>
         <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
-            
+
             <div class="panel">
 
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Website Redesign : www.askjonskeet.com</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/jon_skeet_home.png"  class="full-width img-responsive img-work"/>
+                <img src="<?php echo base_url('assets/img/jon_skeet_home.png'); ?>"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     Website redesign to a Bootstrap based layout.
                 </div>
@@ -128,7 +151,7 @@
                         Simple Four page layout
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/askjonskeeet" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/askjonskeeet'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
 
             <div class="panel">
@@ -136,7 +159,7 @@
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">SafeGlobalPay : Payment Gateway website</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/safeglobal_home.png"  class="full-width img-responsive img-work"/>
+                <img src="<?php echo base_url('assets/img/safeglobal_home.png'); ?>"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     Twitter Bootstrap , HTML5, CSS and JQuery based single page website.
                 </div>
@@ -157,13 +180,13 @@
                         PHP (CodeIgniter Framework).
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/safeglobalpay" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/safeglobalpay'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">PHP Scripting: Splitting large xmls to smaller chunks</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/xml-splitter.jpeg"  class="full-width img-responsive img-work"/>
+                <img src="<?php echo base_url('assets/img/xml-splitter.jpeg'); ?>"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     PHP, XMLReader / XMLWriter apis, Mysql database, Cron scheduling
                 </div>
@@ -181,13 +204,13 @@
                         Capable of resuming aborted process from the last record.
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/xml-splitter" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/xml-splitter'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Sample Project : HTML5 site built with Bootstrap and CSS3/Jquery animations</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/123.jpg" class="img-responsive img-work full-width"/>
+                <img src="<?php echo base_url('assets/img/123.jpg'); ?>" class="img-responsive img-work full-width"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     Sample project created to demonstrate animations and effects using CSS3 and JQuery.
                 </div>
@@ -205,7 +228,7 @@
                         Applicable for showcasing portfolios and projects.
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/html5-site" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/html5-site'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
         </div>
         <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
@@ -213,7 +236,7 @@
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Archfold Interactive : Artist Promotion website</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/archfold_home.png"  class="full-width img-responsive img-work"/>
+                <img src="<?php echo base_url('assets/img/archfold_home.png'); ?>"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     Twitter Bootstrap, PHP based artist promotion website with admin panel.
                 </div>
@@ -231,13 +254,13 @@
                         Admin Panel to change the twitter settings and add News feeds.
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/archfold" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/archfold'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Ayjo Consulting : Website</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/ayjo_s.png"  class="full-width img-responsive img-work"/>
+                <img src="<?php echo base_url('assets/img/ayjo_s.png'); ?>"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     Website for software development agency.
                 </div>
@@ -258,13 +281,13 @@
                         Auto hiding top header on scroll.
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/ayjoconsulting" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/ayjoconsulting'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">PHP Scripting: XML and CSV  data parsing using PHP</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/xml.png"  class="full-width img-responsive img-work"/>
+                <img src="<?php echo base_url('assets/img/xml.png'); ?>"  class="full-width img-responsive img-work"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     Object oriented PHP, XMLReader / XMLWriter apis, CSV manipulations
                 </div>
@@ -282,13 +305,13 @@
                         PHP based solution
                     </li>
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/xml-csv" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/xml-csv'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
             <div class="panel ">
                 <div class="panel-heading  bg-colored text-black">
                     <h3 class="panel-title bold text-center">Web portal built on PHP and HTML5 / CSS</h3>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/img/portal.png" class="img-responsive img-work full-width"/>
+                <img src="<?php echo base_url('assets/img/portal.png'); ?>" class="img-responsive img-work full-width"/>
                 <div class="text-center bg-colored padding-5 text-black ">
                     PHP based portal designed to upload files and preview results before writing to database.
                 </div>
@@ -310,7 +333,7 @@
                     </li>
 
                 </ul>
-                <a href="<?php echo base_url(); ?>developer/work_details/php-portal" class="btn btn-block input-sm send_message">Click to know more</a>
+                <a href="<?php echo base_url('developer/work_details/php-portal'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
         </div>
     </div>
