@@ -103,3 +103,9 @@ blockquote				{border-color: #f4645f;}
 @media (max-width: 1200px) {
     #contact-info		{margin-bottom:30px;}
 }
+.panel {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
