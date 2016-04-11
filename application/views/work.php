@@ -15,7 +15,7 @@
                 </div>
                 <ul style="padding-left:15px;font-size:12px" class="padding-5">
                     <li>
-                         Twitter Bootstrap with HTML5 / CSS3 /JQuery.
+                        Twitter Bootstrap with HTML5 / CSS3 /JQuery.
                     </li>
                     <li>
                         Google Maps Integration.
@@ -28,33 +28,6 @@
                     </li>
                 </ul>
                 <a href="<?php echo base_url('developer/work_details/magicmeal'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
-            </div>
-            <div class="panel">
-                <div class="panel-heading bg-colored text-black">
-                    <h3 class="panel-title bold text-center">Admin Panel : Invoicing system</h3>
-                </div>
-                <img src="<?php echo base_url('assets/img/safe_admin_s.png'); ?>"  class="full-width img-responsive img-work"/>
-                <div class="text-center bg-colored padding-5 text-black">
-                    System to create role based users and send invoices.
-                </div>
-                <ul style="padding-left:15px;font-size:12px" class="padding-5">
-                    <li>
-                        Login Authentication. Username - password recovery. 
-                    </li>
-                    <li>
-                        Reseller model. Create and manage Vendors and Customers
-                    </li>
-                    <li>
-                        Payment Gateway integration. Invoice management.
-                    </li>
-                    <li>
-                        Activate / deactivate vendors. Generate custom reports.
-                    </li>
-                    <li>
-                        Automated / Manual database backup.
-                    </li>
-                </ul>
-                <a href="<?php echo base_url('developer/work_details/adminpanel_safe'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
             <div class="panel">
                 <div class="panel-heading bg-colored text-black">
@@ -83,6 +56,34 @@
                 </ul>
                 <a href="<?php echo base_url('developer/work_details/moxiecrm'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
             </div>
+            <div class="panel">
+                <div class="panel-heading bg-colored text-black">
+                    <h3 class="panel-title bold text-center">Admin Panel : Invoicing system</h3>
+                </div>
+                <img src="<?php echo base_url('assets/img/safe_admin_s.png'); ?>"  class="full-width img-responsive img-work"/>
+                <div class="text-center bg-colored padding-5 text-black">
+                    System to create role based users and send invoices.
+                </div>
+                <ul style="padding-left:15px;font-size:12px" class="padding-5">
+                    <li>
+                        Login Authentication. Username - password recovery. 
+                    </li>
+                    <li>
+                        Reseller model. Create and manage Vendors and Customers
+                    </li>
+                    <li>
+                        Payment Gateway integration. Invoice management.
+                    </li>
+                    <li>
+                        Activate / deactivate vendors. Generate custom reports.
+                    </li>
+                    <li>
+                        Automated / Manual database backup.
+                    </li>
+                </ul>
+                <a href="<?php echo base_url('developer/work_details/adminpanel_safe'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
+            </div>
+            
             <div class="panel">
                 <div class="panel-heading  bg-colored bold text-black">
                     <h3 class="panel-title bold text-center">ExportEditor : A web based tool to upload/parse CSV, JS validate and email</h3>
@@ -130,9 +131,34 @@
             </div>
         </div>
         <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
-
+            <!--start pathology lab project-->
             <div class="panel">
-
+                <div class="panel-heading bg-colored text-black">
+                    <h3 class="panel-title bold text-center text-capitalize">Pathology Lab : report management</h3>
+                </div>
+                <img src="<?php echo base_url('assets/img/pathlab_login.png'); ?>"  class="full-width img-responsive img-work"/>
+                <div class="text-center bg-colored padding-5 text-black">
+                    Application for managing patients and their reports 
+                </div>
+                <ul style="padding-left:15px;font-size:12px" class="padding-5">
+                    <li>
+                        Twitter Bootstrap with HTML5 / CSS3 /JQuery.
+                    </li>
+                    <li>
+                        Laravel PHP Framework
+                    </li>
+                    <li>
+                        Authorization and Access Control management.
+                    </li>
+                    <li>
+                        PDF report generation.
+                    </li>
+                </ul>
+                <a href="<?php echo base_url('developer/work_details/pathlab'); ?>" class="btn btn-block input-sm send_message">Click to know more</a>
+            </div>
+            <!--end pathology lab project-->
+            
+            <div class="panel">
                 <div class="panel-heading bg-colored text-black">
                     <h3 class="panel-title bold text-center">Website Redesign : www.askjonskeet.com</h3>
                 </div>
