@@ -10,67 +10,67 @@
     font-family: "Raleway-Thin";
     src: url("../fonts/Raleway-Thin.ttf");
 }
-body 					{font-family:"Champagne & Limousines","Raleway-Thin",Helvetica,sans-serif;-webkit-font-smoothing: antialiased;}
+body 					{font-family:"Champagne & Limousines","Raleway-Thin",Helvetica,sans-serif;-webkit-font-smoothing: antialiased;padding-top:10px}
 .bg-colored				{background-color: #f4645f;}
 .bg-white 				{background-color: white;}
-.text-colored			{color: #f4645f;}
-.text-white 			{color: white;}
+.text-colored                           {color: #f4645f;}
+.text-white                             {color: white;}
 .text-red	 			{color: red;}
 .text-blue 				{color: blue;}
-.text-lightblue			{color:#269ABC}
-.text-black 			{color: black;}
+.text-lightblue                         {color:#269ABC}
+.text-black                             {color: black;}
 /*.brand				{font-weight: 100;font-size: 100px;color:#DC5A56;z-index: -100:position:absolute;bottom:0px;}*/
-a 						{text-decoration: none;}
-a:hover,a:visited		{text-decoration: none;}
+a 					{text-decoration: none;}
+a:hover,a:visited                       {text-decoration: none;}
 .home-menu 				{list-style: none;margin: 0px;padding: 0px;}
-.home-menu li 			{display:inline-block;font-weight: lighter;font-size: 50px;margin:2px;padding:5px;}
-.links					{color:white;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;}
-.links:hover			{color:black}
-.home-page-intro    	{color:white;font-size:30px;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;}
-.contact-page-intro    	{color:black;font-size:30px;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;margin-top:15px;}
+.home-menu li                           {display:inline-block;font-weight: lighter;font-size: 50px;margin:2px;padding:5px;}
+.links					{color:#fff;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;}
+.links:hover                            {color:black}
+.home-page-intro                        {color:#fff;font-size:30px;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;margin-top:15px}
+.contact-page-intro                     {color:black;font-size:30px;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;margin-top:15px;}
 footer					{padding:30px;font-size:15px;font-weight:700;margin-top:30px;}
 footer a 				{color:blue}
 .container-fluid,
 .container 				{min-height:780px;}
-.work-intro				{color:white;font-size:30px;margin-top:20px;padding:10px;border-top:solid white 2px;border-bottom:solid white 2px;}
-.primary-email			{background-color:#f4645f;padding: 3px;margin:2px;color:white;}
-.primary-email-2			{background-color:white;padding: 3px;margin:2px;color:#f4645f;}
+.work-intro				{color:#fff;font-size:30px;margin-top:30px;padding-top:30px;padding-bottom: 30px;border-top:solid white 2px;border-bottom:solid white 2px;}
+.primary-email                          {background-color:#f4645f;padding: 3px;margin:2px;color:#fff;}
+.primary-email-2			{background-color:#fff;padding: 3px;margin:2px;color:#f4645f;}
 /*===================================================================================================================================================
  OTHER PAGES STYLING
  ===================================================================================================================================================*/
 .links2					{color:#f4645f;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;}
-.links2:hover			{color:black;}
-#profile-image 			{max-height:300px;}
+.links2:hover                           {color:black;}
+#profile-image                          {max-height:300px;}
 .intro-line				{text-align:right;font-weight:bolder;margin:0px;}
-.about-heading			{text-align:right;padding:70px 0px 60px 0px;margin:15px 0px 0px 0px;}
+.about-heading                          {text-align:right;padding:70px 0px 60px 0px;margin:15px 0px 0px 0px;}
 .tags					{text-align:right}
 blockquote				{border-color: #f4645f;}
-.border-top-colored		{border-top:solid #f4645f 1px}
-.border-bottom-colored	{border-bottom:solid #f4645f 1px}
-.border-top-white		{border-top:solid white 1px}
-.border-bottom-white	{border-bottom:solid white 1px}
+.border-top-colored                     {border-top:solid #f4645f 1px}
+.border-bottom-colored                  {border-bottom:solid #f4645f 1px}
+.border-top-white                       {border-top:solid white 1px}
+.border-bottom-white                    {border-bottom:solid white 1px}
 .padding-5				{padding: 5px;}
 .padding-10				{padding: 10px;}
 .margin-5				{margin: 5px;}
 .margin-10				{margin: 10px;}
-.border-black   		{border:solid black 1px}
-.border-colored   		{border:solid #DC5A56 1px}
+.border-black                           {border:solid black 1px}
+.border-colored                         {border:solid #DC5A56 1px}
 .bold					{font-weight:700}
 /*.panel {min-height: 450px !important}*/
 .panel,  
-.panel-heading			{border-radius:0px;border: solid #DC5A56 1px; color:black;font-weight:700}
+.panel-heading                          {border-radius:0px;border: solid #DC5A56 1px; color:black;font-weight:700}
 .full-width				{width:100%}
 .img-work				{height:168px;}
-.send_message			{background-color:#f4645f;border: solid #DC5A56 1px;padding:5px 20px 5px 20px;color:white;font-weight: 700;}
+.send_message                           {background-color:#f4645f;border: solid #DC5A56 1px;padding:5px 20px 5px 20px;color:#fff;font-weight: 700;}
 .thumbnail 				{background-color:#f4645f;border: solid #DC5A56 1px;font-weight: 700;margin-bottom:50px;margin-top:50px;}
 .border 				{border:solid white 1px;}
-.snapshot-heading 		{ cursor: pointer; cursor: hand; }
+.snapshot-heading                       { cursor: pointer; cursor: hand; }
 .form-control, 
-.btn,.input-group-addon	{border-radius:0px;}
-.home-page-intro a		{color:black;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;}
-.home-page-intro a:hover{transform: scale(1.1);}
-.error-message			{color:red}
-.unhappyMessage			{color:red}
+.btn,.input-group-addon                 {border-radius:0px;}
+.home-page-intro a                      {color:black;-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;}
+.home-page-intro a:hover                {transform: scale(1.1);}
+.error-message                          {color:red}
+.unhappyMessage                         {color:red}
 .red					{background:#F4DFA1;color:black;}
 .green  				{background:#C3F7B7;color:black;}
 .full-width {width:100% !important}
@@ -78,30 +78,30 @@ blockquote				{border-color: #f4645f;}
  MEDIA QUERIES FOR ALL THE PAGES DEFINED BELOW AS PER BOOTSTRAP SPECIFICATIONS
  ===================================================================================================================================================*/
 @media (max-width: 500px) {
-    .home-menu li 		{font-size: 28px;margin:1px;padding:1px;}
-    .home-page-intro    {text-align:left;font-size:20px;margin-bottom:20px;}
-    .contact-page-intro {text-align:left;font-size:20px;margin-bottom:20px;}
-    .about-heading		{text-align:left;padding:10px 0px 10px 30px;margin:10px 0px 10px 0px;}
+    .home-menu li                       {font-size: 28px;margin:1px;padding:1px;}
+    .home-page-intro                    {text-align:left;font-size:20px;margin-bottom:20px;}
+    .contact-page-intro                 {text-align:left;font-size:20px;margin-bottom:20px;}
+    .about-heading                      {text-align:left;padding:10px 0px 10px 30px;margin:10px 0px 10px 0px;}
     .tags				{text-align:left;margin-bottom:0px;margin-top:5px;}
-    #contact-info		{margin-top:30px;margin-bottom:30px;}
-    .img-work 			{height:auto;}
+    #contact-info                       {margin-top:30px;margin-bottom:30px;}
+    .img-work                           {height:auto;}
 }
 @media (max-width: 767px) {
-    .home-menu li 		{font-size: 28px;margin:1px;padding:1px;}
-    .home-page-intro    {text-align:left;font-size:20px;margin-bottom:20px;}
-    .contact-page-intro {text-align:left;font-size:20px;margin-bottom:20px;}
-    .about-heading		{text-align:left;padding:10px 0px 10px 30px;margin:10px 0px 10px 0px;}
+    .home-menu li                       {font-size: 28px;margin:1px;padding:1px;}
+    .home-page-intro                    {text-align:left;font-size:20px;margin-bottom:20px;}
+    .contact-page-intro                 {text-align:left;font-size:20px;margin-bottom:20px;}
+    .about-heading                      {text-align:left;padding:10px 0px 10px 30px;margin:10px 0px 10px 0px;}
     .tags				{text-align:left;margin-bottom:0px;margin-top:10px;}
-    #contact-info		{margin-top:30px;margin-bottom:30px;}
-    .img-work 			{height:auto;}
+    #contact-info                       {margin-top:30px;margin-bottom:30px;}
+    .img-work                           {height:auto;}
 }
 @media (max-width: 992px){
-    #profile-image 		{max-height:200px;}
-    .intro-line			{font-weight:bold;margin:0px;font-size:30px}
-    #contact-info		{margin-top:30px;margin-bottom:30px;}
+    #profile-image                      {max-height:200px;}
+    .intro-line                         {font-weight:bold;margin:0px;font-size:30px}
+    #contact-info                       {margin-top:30px;margin-bottom:30px;}
 }
 @media (max-width: 1200px) {
-    #contact-info		{margin-bottom:30px;}
+    #contact-info                       {margin-bottom:30px;}
 }
 .panel {
     -webkit-box-shadow: 0 10px 6px -6px #777;
