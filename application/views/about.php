@@ -13,7 +13,7 @@
             </div>
             <div class="row">
                 <p class="h3">I am a software engineer based out of Oslo, Norway and have been serving clients scaling from small student entrepreneurs to the large multinational organizations and everything in between.
-                    I currently operate as the CTO for <a href="https://bedrebest/no">bedrebest.no</a> and take care of the sophesticated price comparison engine that focuses on listing the best personal finance products in Norway.
+                    I currently operate as the CTO for <a href="https://bedrebest.no">bedrebest.no</a> and take care of the sophesticated price comparison engine that focuses on listing the best personal finance products in Norway.
                     <br /><br />
                     I have previously worked with Infosys Limited and have served multiple clients across the globe for over 8 years. 
                     <br /><br />

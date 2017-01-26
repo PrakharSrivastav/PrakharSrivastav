@@ -1,0 +1,7 @@
+/system
+.htaccess
+/application/config/*
+.directory
+404.shtml
+error_log
+/nbproject
