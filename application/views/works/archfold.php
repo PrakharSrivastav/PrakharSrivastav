@@ -44,8 +44,8 @@
                             </li>
                         </ol>
                         <p>
-                            Demo Url : <a target="_blank" href="http://www.prakharsrivastav.com/ArtistManagement/">http://www.prakharsrivastav.com/ArtistManagement/</a>
-                            <br />
+                            <!-- Demo Url : <a target="_blank" href="http://www.prakharsrivastav.com/ArtistManagement/">http://www.prakharsrivastav.com/ArtistManagement/</a>
+                            <br /> -->
                             Actual Url : <a target="_blank" href="http://archfold.com">http://archfold.com</a>
                         </p>
                     </section>
